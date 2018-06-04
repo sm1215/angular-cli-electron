@@ -8,7 +8,12 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "electron:start": "ng build --watch -op=electron/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sm1215/angular-cli-electron.git"
   },
   "private": true,
   "dependencies": {
